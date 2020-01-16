@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Abigail's Awesome Website</title>
+    </head>
+    <body>
+        <h1>Abigail Saechao</h1>
+        <h2>About Me</h2>
+        <p>I am a Sophomore just trying to get a degree to make my Asian parents proud</p>
+        <p>My toes feel like they're going to freeze off</p>
+        <h2>My Favorite Websites</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/">Youtube</a></li>
+            <li><a href="https://www.twitter.com/">Twitter</a></li>
+            <li><a href="https://www.netflix.com/">Netflix</a></li>
+            <li><a href="https://www.hulu.com/">Hulu</a></li>
+            <li><a href="https://open.spotify.com/">Spotify</a></li>
+        </ul>
+        <h2>My Favorite Pictures</h2>
+        <a href="https://www.youtube.com/">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVbmt1v6h3fB07DwpuHQ58G0JyNdY4jqxLcG4XlHoD_OkkMBvh&s" 
+                title="BABY YODA but with a cup" style="width:300px;length:320px;margin:5px">
+        </a>
+        <a href="https://www.netflix.com/">
+                <img src="https://pmctvline2.files.wordpress.com/2020/01/the-mandalorian-baby-yoda-the-child-identity-species-disney-plus.jpg?w=620&h=420&crop=1" 
+                title="BABY YODA!!" style="width:520px;length:320px;margin:5px">
+        </a>
+        <h2><b><u>5 things we didn't talk about in class</u></b></h2>
+            <h3><u>Legend Tag?</u></h3>
+            <form>
+                <fieldset>
+                <legend>Personalia:</legend>
+                Name: <input type="text" size="30"><br>
+                Email: <input type="text" size="30"><br>
+                Date of birth: <input type="text" size="10">
+                </fieldset>
+            </form>
+ <br/>
+            <h3><u>Option Tag</u></h3>
+                <h4>What year am I?</h4>
+            <select>
+                <option value="freshman">Freshman</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+            </select>
+<br/>
+            <h3><u>Audio Tag</u></h3>
+                <audio controls>
+                    <source src="Lewis Capaldi - Someone You Loved.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+<br/>
+            <h3><u>Canvas Tag</u></h3>
+                <!-- canvas tag starts here -->
+                <canvas id = "geeks" width = "200" height = "200"
+                    style = "border:1px solid black"> 
+                </canvas> 
+                <!-- canvas tag ends here -->
+                
+                <script> 
+                    var c=document.getElementById("geeks"); 
+                    var cx = c.getContext("2d"); 
+                    var grd = cx.createRadialGradient(100,  
+                                    100, 5, 100, 100, 100); 
+                    grd.addColorStop(0, "red"); 
+                    grd.addColorStop(1, "green"); 
+                    cx.fillStyle = grd; 
+                    cx.fillRect(0, 0, 200, 200); 
+                </script> 
+<br/>
+            <h3><u>Object Tag</u></h3>
+                <object width="500" height="600" 
+                    data="https://en.wikipedia.org/wiki/TikTok">
+                </object>
+    </body>
+</html>
