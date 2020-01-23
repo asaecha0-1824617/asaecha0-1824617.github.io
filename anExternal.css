@@ -1,0 +1,30 @@
+/* Our CSS Document */
+
+body {
+    background-color: #00ff99;
+}
+
+#p1{
+    font-family: "Times New Roman";
+    font-size: 150%;
+    text-align: center;
+}
+
+#p2{
+    font-family: "Impact";
+    font-size: 200%;
+    text-align: center;
+}
+
+#floated{
+    float: right;
+}
+
+#rounded{
+    float: left;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 0, 140);
+    padding: 20px;
+    width: 450px;
+    height: 400px;
+}
